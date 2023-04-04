@@ -1,0 +1,13 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "fvm-lib-demo"
+authors = ["Polywrap"]
+version = "0.1.0"
+description = ""
+
+[tool.poetry.dependencies]
+python = "~3.10.10"
+polywrap-client = "^0.1.0a14"

@@ -1,0 +1,11 @@
+[package]
+name = "fvm-lib-rust-app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+polywrap_client = { git = "https://github.com/polywrap/rust-client" }
+polywrap_core = { git = "https://github.com/polywrap/rust-client" }
+polywrap_client_builder = { git = "https://github.com/polywrap/rust-client" }
+tokio = { version = "1.23.0", features = ["full"] }
+serde = {version = "1.0.145", features = ["derive"]}

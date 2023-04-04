@@ -1,0 +1,10 @@
+type Module {
+    encodeMessage(
+        message: Message!
+    ): Bytes!
+}
+
+type Message {
+    actor: String!
+    args: JSON!
+}

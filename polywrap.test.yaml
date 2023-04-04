@@ -1,0 +1,13 @@
+name: template-wasm-rs
+format: 0.1.0
+jobs:
+  encoding:
+    steps:
+      - uri: fs/build
+        method: encodeMessage
+        args:
+          message:
+            actor: "foo-bar"
+            args: '{
+                "arg1": [1, 2, 3]
+              }'
